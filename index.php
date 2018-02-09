@@ -2,12 +2,16 @@
 <html>
 <body>
 
+<br>
+<?php include 'menu.php';?>
+<br>
+
 <h1>My first PHP page</h1>
 <h5> Hello from html</h5>
 
 <?php
 
-$hello = "Hello World! olala!!";
+$hello = "Hello World! olala from php!!";
 echo "<br>";
 print "da, merge! $hello";
 echo "<br>da, merge si asa " .  $hello , "^_^";
@@ -34,9 +38,8 @@ echo "<br>";
 echo strrev($hello);
 
 
-
-
 ?>
 
 </body>
 </html>
+<?php include 'footer.php';?>
